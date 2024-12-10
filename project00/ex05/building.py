@@ -29,7 +29,7 @@ def main():
 		print(f"{spaces} spaces")
 		print(f"{numbers} digits")
 	except Exception as err:
-		print(f"{err.__class__.__name__}: err")
+		print(f"{err.__class__.__name__}: {err}")
      
 if __name__ == "__main__":
 	main()
